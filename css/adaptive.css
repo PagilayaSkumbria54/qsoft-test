@@ -1,0 +1,143 @@
+@media only screen and (max-width : 1280px){
+    .item {
+        width: 260px;
+    }
+    .user-name{
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width : 871px){
+    .left-side-wrapper{
+        width: 80%;
+    }
+
+    .right-side-wrapper{
+        width: 20%;
+    }
+
+    .item {
+        width: 230px;
+    }
+
+    .item:nth-child(2) > .item-img {
+        width: 183px;
+    }
+
+    .item:nth-child(5) > .item-img {
+        width: 183px;
+    }
+
+    .item:nth-child(7) > .item-img {
+        width: 183px;
+    }
+}
+
+@media only screen and (max-width : 783px){
+    .left-side-wrapper{
+        width: 70%;
+    }
+
+    .item {
+        width: 220px;
+    }
+
+
+}
+
+@media only screen and (max-width : 753px){
+    .item {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width : 694px){
+    .item {
+        width: 170px;
+    }
+
+    .item:nth-child(2) > .item-img {
+        width: 150px;
+    }
+
+    .item:nth-child(4) > .item-img {
+        width: 150px;
+    }
+
+    .item:nth-child(5) > .item-img {
+        width: 150px;
+    }
+
+    .item:nth-child(7) > .item-img {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width : 606px) {
+    .profile-img{
+        display: block;
+    }
+
+    .left-side-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right-side-wrapper{
+        display: none;
+    }
+
+    .searchbar{
+        display: none;
+    }
+
+    .item {
+        width: 150px;
+    }
+
+    .item:nth-child(2) > .item-img {
+        width: 130px;
+    }
+
+    .item:nth-child(4) > .item-img {
+        width: 130px;
+    }
+
+    .item:nth-child(5) > .item-img {
+        width: 130px;
+    }
+
+    .item:nth-child(7) > .item-img {
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width : 545px) {
+    .item{
+        width: 100%;
+    }
+
+    .item:nth-child(2) > .item-img {
+        width: 180px;
+    }
+
+    .item:nth-child(4) > .item-img {
+        width: 180px;
+    }
+
+    .item:nth-child(5) > .item-img {
+        width: 180px;
+    }
+
+    .item:nth-child(7) > .item-img {
+        width: 180px;
+    }
+
+    .title {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 160%;
+    }
+
+}

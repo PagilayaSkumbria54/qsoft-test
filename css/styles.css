@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*Header starts*/
+#header{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.left-side-wrapper{
+    padding: 20px 0;
+    display: flex;
+    width: 85%;
+}
+
+.logo{
+    width: 135px;
+    height: 30px;
+    margin-right: 61px;
+}
+
+.searchbar{
+    position: relative;
+    width: 100%;
+    margin-right: 60px;
+}
+.searchbar-button {
+    fill: #768298;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    z-index: 3;
+}
+
+.searchbar-input {
+    width: 100%;
+    height: 40px;
+    padding-left: 45px;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+}
+
+.searchbar-input::placeholder{
+    color: #BBC4D6;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+}
+
+.right-side-wrapper{
+    width: 15%;
+}
+
+.user{
+    border-left: 1px solid #EBEBF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.profile-img{
+    display: none;
+}
+
+.user-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: right;
+    letter-spacing: 0.01em;
+}
+/*Header end*/
+
+/*Partners start*/
+#partners{
+    padding-top: 50px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #121920;
+    margin-bottom: 30px;
+}
+
+.partners-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    width: 101%;
+}
+
+.item {
+    height: 120px;
+    width: 280px;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.item-img{
+
+}
+
+.item:hover{
+    box-shadow: -3px 0 40px rgba(0, 0, 0, 0.1), 0 0 10px rgba(164, 164, 164, 0.03);
+}
+/*Partners end*/
+
+
+
+
+
